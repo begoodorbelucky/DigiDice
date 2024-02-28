@@ -102,6 +102,67 @@ a:visited {
     padding: 5%;
 }
 
+/* dice styling*/
+
+.container{
+    perspective: 800px;
+    perspective-origin: 50% 50%;
+    height: 100vh;
+  }
+  .container .cube{
+    position: relative;
+    left: 45%;
+    top: 40%;
+    height: 200px;
+    width: 200px;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transform: rotateX(130deg) rotateY(-220deg) rotateZ(-86deg);
+  }
+  .container .cube div{
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    border:3px solid #d91f36;
+  }
+  
+  .container .cube .front{
+    background: #fdf8e6;
+    border-radius: 5%;
+    transform: translateZ(100px);
+  }
+  .container .cube .back{
+    background: #fdf8e6;
+    border-radius: 5%;
+    transform: translateZ(-100px) rotateY(180deg);
+  }
+  .container .cube .right{
+    background: #fdf8e6;
+    border-radius: 5%;
+    transform-origin: top right;
+    transform: rotateY(-270deg) translateX(100px);
+  }
+  .container .cube .left{
+    background: #fdf8e6;
+    border-radius: 5%;
+    transform-origin: center left;
+    transform: rotateY(270deg) translateX(-100px);
+  }
+  .container .cube .top{
+    background: #fdf8e6;
+    border-radius: 5%;
+    transform-origin: top center;
+    transform: rotateX(-270deg) translateY(-100px);
+  }
+  .container .cube .bottom{
+    background: #fdf8e6;
+    border-radius: 5%;
+    transform-origin: bottom center;
+    transform: rotateX(270deg) translateY(100px);
+  }
+
 /* contact form styling*/
 #contactform h3{
     text-align: center;
