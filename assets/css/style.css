@@ -171,6 +171,14 @@ a:visited {
     margin: 0 auto;
 }
 
+/* Thank you page styling*/
+#thank-you {
+    background-color: #facbcb;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
 
 /*media query for mobile responsiveness*/
 @media (max-width: 768px){
