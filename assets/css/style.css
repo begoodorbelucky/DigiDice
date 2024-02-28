@@ -87,6 +87,23 @@ a:visited {
     background-color: #000000;
 }
 
+/* social network icons in footer*/
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    color: #000000;
+    padding: 5%;
+
+}
+
 /*media query for mobile responsiveness*/
 @media (max-width: 768px){
     .logo {
