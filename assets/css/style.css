@@ -11,4 +11,15 @@
 /* General Styles */
 
 body {
-    background-color: #d91f36;}
+    background-color: #d91f36;
+    font-family: 'Open Sans', 'Courier New', Courier, monospace;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    /* make main element take up surplus space*/
+    flex: 1 0 auto;
+}
+
