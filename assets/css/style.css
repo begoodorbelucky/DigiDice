@@ -1,0 +1,14 @@
+/* Asterisk wildcard selector to override default styles set by browser */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* General Styles */
+
+body {
+    background-color: #d91f36;}
