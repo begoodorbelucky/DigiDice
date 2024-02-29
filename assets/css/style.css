@@ -163,6 +163,44 @@ a:visited {
     transform: rotateX(270deg) translateY(100px);
   }
 
+/* dot styling*/
+.dot {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #d91f36;
+    border-radius: 15px;  
+  }
+
+.front .dot1 { top: 85px; left: 85px; }
+
+.back .dot1 { top: 45px; left: 45px; }
+.back .dot2 { top: 125px; left: 125px; }
+
+.top .dot1 { top: 45px; left: 45px; }
+.top .dot2 { top: 85px; left: 85px; }
+.top .dot3 { top: 125px; left: 125px; }
+
+.left .dot1 { top: 45px; left: 45px; }
+.left .dot2 { top: 45px; left: 125px; }
+.left .dot3 { top: 125px; left: 45px; }
+.left .dot4 { top: 125px; left: 125px; }
+
+.right .dot1 { top: 45px; left: 45px; }
+.right .dot2 { top: 45px; left: 125px; }
+.right .dot3 { top: 85px; left: 85px; }
+.right .dot4 { top: 125px; left: 45px; }
+.right .dot5 { top: 125px; left: 125px; }
+
+.bottom .dot1 { top: 45px; left: 45px; }
+.bottom .dot2 { top: 45px; left: 85px; }
+.bottom .dot3 { top: 45px; left: 125px; }
+.bottom .dot4 { top: 125px; left: 45px; }
+.bottom .dot5 { top: 125px; left: 85px; }
+.bottom .dot6 { top: 125px; left: 125px; }
+
+
 /* contact form styling*/
 #contactform h3{
     text-align: center;
