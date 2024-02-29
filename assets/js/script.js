@@ -19,5 +19,3 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     window.location.href = "thankyou.html";
   });
 
-// dice roll function
-
