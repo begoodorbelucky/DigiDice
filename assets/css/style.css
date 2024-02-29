@@ -118,6 +118,7 @@ a:visited {
     transform-style: preserve-3d;
     cursor: pointer;
     transform: rotateX(130deg) rotateY(-220deg) rotateZ(-86deg);
+    animation: rotate 2s linear;
   }
   .container .cube div{
     position: absolute;
@@ -200,6 +201,18 @@ a:visited {
 .bottom .dot5 { top: 125px; left: 85px; }
 .bottom .dot6 { top: 125px; left: 125px; }
 
+/* keyframes animation for dice rotation*/ 
+@keyframes rotate {
+    0%{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    50%{
+        transform: rotateX(130deg) rotateY(140deg) rotateZ(175deg);
+    }
+    100%{
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+    }
+}
 
 /* contact form styling*/
 #contactform h3{
