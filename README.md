@@ -1,39 +1,169 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Digi Dice
 
-Welcome,
+![Digi Dice website shown on a variety of screen sizes](assets/readme-files/responsivescreenshot.png)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Visit the deployed site: [Digi Dice]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+### Welcome to Digi Dice
 
-## Codeanywhere Reminders
+### About Us
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+## Contents
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
+- [Digi Dice](#Digi-Dice)
+    - [Welcome to Digi Dice](#welcome-to-Digi-Dice)
+    - [About Us](#about-us)
+  - [Contents](#contents)
+  - [User Experience (UX)](#user-experience-ux)
+    - [Project Goals](#project-goals)
+    - [Color Scheme](#color-scheme)
+    - [Typography](#typography)
+  - [Features](#features)
+    - [General](#general)
+    - [Landing Page](#landing-page)
+    - [Dice Page](#dice-page)
+    - [Contact Page](#contact-page)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Websites and Programs Used](#websites-and-programs-used)
+  - [Testing](#testing)
+    - [Code Validation](#code-validation)
+    - [Accessibility](#accessibility)
+    - [Automated Testing](#automated-testing)
+    - [Manual Testing](#manual-testing)
+- [Finished Product](#finished-product)
+- [Deployment](#deployment)
+- [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+- [Acknowledgements](#acknowledgements)
 ---
 
-Happy coding!
+## User Experience (UX)
+
+### Project Goals
+
+### Color Scheme
+
+![Color scheme](assets/readme-files/projectcolorscheme.png)
+
+### Typography
+
+![Typography](assets/readme-files/fontsample.png)
+
+## Features
+
+### General
+
+- **Header**
+
+  ![Header](assets/readme-files/headerss.png)
+
+- **Navigation Menu**
+
+  ![Navigation Menu](assets/readme-files/menumobiless.png)
+
+- **Footer**
+
+  ![Header](assets/readme-files/footerss.png)
+
+### Landing Page
+
+### Dice Page
+
+### Contact Page
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML](https://www.w3schools.com/html/html_intro.asp)
+- [CSS](https://www.w3schools.com/css/css_intro.asp)
+- [Javascript](https://www.w3schools.com/js/js_intro.asp)
+
+### Websites and Programs Used
+
+- [Google Fonts](https://fonts.google.com/)
+
+- [Font Awesome](https://fontawesome.com/)
+
+- [Gitpod](https://www.gitpod.io/)
+
+  - Gitpod was used as the integrated development environment for writing, committing, and pushing code to GitHub.
+
+- [Github](https://github.com/)
+
+  - Github was used to store the code, as well as facilitate version control.
+
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+
+  - 'Am I Responsive' was used to visualize and test how the website appears on different screen sizes, including desktops, tablets, and mobile devices.
+
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+
+  - Chrome DevTools was used to inspect, debug, and optimize the performance of the website.
+
+- [W3C Markup Validator](https://validator.w3.org/)
+
+  - W3C Markup Validator was used to validate the HTML code.
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+  - W3C CSS Validator was used to validate the CSS code.
+
+## Testing
+
+### Code Validation
+
+- [W3C Markup Validator](https://validator.w3.org/) was used to ensure quality and compliance of the HTML code in this project.
+
+![W3C Markup Validator](assets/readme-files/markup.jpg)
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to ensure the quality and compliance of the CSS code in this project.
+
+### Accessibility
+
+![Lighthouse](assets/readme-files/lighthouse.jpg)
+
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+  was used to ensure the accessibility of the project, to guarantee an inclusive and user-friendly experience for all visitors.
+
+### Automated Testing
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  -Chrome DevTools was used to continuously monitor the project, ensuring the website's responsiveness and visual appeal on all device size.
+
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+  -'Am I Responsive' was also used to ensure the website was fully responsive across a range of device sizes.
+
+### Manual Testing
+
+- Cross-Browser Compatibility:
+
+  - Manual testing was conducted on different browsers (e.g., Chrome, Firefox, Safari) to ensure consistent performance.
+
+- Device Compatibility:
+  - The website has been tested on several different devices to successfully demonstrate there are no appearance, functionality or responsiveness issues. The devices tested include:
+    - **Samsung Galaxy S22 Ultra**
+    - **Toshiba Satellite L50-C**
+    - **IPhone XE**
+    - **iPad 10.2-inch (9th Generation)**
+    - **Macbook Air 13.3-inch**
+
+# Finished Product
+
+| Page     | Desktop version                                                           | Mobile version                                                          |
+| -------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Index    | ![Desktop index page image](assets/readme-files/indexdesktopss.png)       | ![Mobile index page image](assets/readme-files/indexmobiless.png)       |
+| Dice     | ![Desktop dice page image](assets/readme-files/dicedesktopss.png)         | ![Mobile dice page image](assets/readme-files/dicemobiless.png) |
+| Contact  | ![Desktop contact page image](assets/readme-files/contactdesktopss.png)   | ![Mobile contact page image](assets/readme-files/contactmobiless.png)   |
+
+# Deployment
+
+- The code for this website was written on [Gitpod](https://www.gitpod.io/), which was then committed and pushed to [Github](https://github.com/).
+
+# Credits
+
+### Content
+
+### Media
