@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // dice roll function
 let cube = document.getElementById('cube');
 
-angleArray = [[0,0,0],[-310,-362,-38],[-400,-320,-2],[135,-217,-88],[-224,-317,5],[-47,-219,-81],[-133,-360,-53]];
+angleArray = [[0,0,0],[-300,-342,-38],[-410,-320,-2],[130,-217,-80],[-204,-317,5],[-47,-219,-81],[-130,-370,-53]];
 
 cube.addEventListener('click',function(){
 
