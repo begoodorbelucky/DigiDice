@@ -13,9 +13,15 @@ document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", 
 }));
 
 // bring users to thankyou.html when form submit button is pressed 
-document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    
-    window.location.href = "thankyou.html";
-  });
+document.addEventListener("DOMContentLoaded", function() {
+    var contactForm = document.getElementById("contact-form");
+    if (contactForm) {
+        contactForm.addEventListener("submit", function(event) {
+            event.preventDefault();
+            window.location.href = "thankyou.html";
+        });
+    } else {
+        console.error("Element with ID 'contact-form' not found.");
+    }
+});
 
