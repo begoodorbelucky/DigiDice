@@ -116,8 +116,7 @@ a:visited {
   }
   .container .cube{
     position: relative;
-    left: 45%;
-    top: 40%;
+    margin: 0 auto;
     height: 200px;
     width: 200px;
     transform-style: preserve-3d;
