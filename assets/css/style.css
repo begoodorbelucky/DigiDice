@@ -102,12 +102,17 @@ a:visited {
     padding: 5%;
 }
 
-/* dice styling*/
+/* click h3 styling */
+#click {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
 
+/* dice styling*/
 .container{
     perspective: 800px;
-    perspective-origin: 50% 50%;
-    height: 100vh;
+    margin-top: 200px;
   }
   .container .cube{
     position: relative;
