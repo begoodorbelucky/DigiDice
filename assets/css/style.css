@@ -145,7 +145,8 @@ a:visited {
 /* dice styling*/
 .container{
     perspective: 800px;
-    margin-top: 200px;
+    margin-top: 110px;
+    margin-bottom: 90px;
   }
   .container .cube{
     position: relative;
@@ -379,7 +380,7 @@ a:visited {
 
     
 /* dice styling*/
-.container{git
+.container{
   margin-top: 150px;
   margin-bottom: 100px
 }
