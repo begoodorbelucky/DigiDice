@@ -46,14 +46,21 @@ Featuring an intuitive user interface and compatibility across various web brows
 ## User Experience (UX)
 
 ### Project Goals
+- Successfully launch the "Digi Dice" website featuring a homepage, a 'dice' page with a functional rolling dice, and a contact page.
+- Design an intuitive and visually appealing website interface that enhances user experience and encourages easy navigation.
+- Ensure the website is fully responsive on all screen sizes, with a focus on mobile first design, providing a seamless and enjoyable experience on all devices.
+- Create a user-friendly interface for rolling dice.
+- This project targets gamers, tabletop RPG enthusiasts, and anyone who needs a virtual dice rolling tool.
 
 ### Color Scheme
 
 ![Color scheme](assets/readme-files/projectcolorscheme.png)
+The main colours used in the project are black (#000000) for the font, and Crimson (#D91F26) for the background colour. There are also elements of Blood Red (#690303), Tea Rose (#FACBCB) and Cosmic Latte (#FDF8E6) used throughout the project. This combination of warm reds, cool pinks, and stark black give the project attention grabbing contrast whilst remaing legible and visually appealing. 
 
 ### Typography
 
 ![Typography](assets/readme-files/fontsample.png)
+The main font used for the project is'Open Sans', with 'Courier New', Courier, and 'Monospace' used as a fallback should the 'Cinzel Decorative' not import correctly.
 
 ## Features
 
@@ -62,14 +69,18 @@ Featuring an intuitive user interface and compatibility across various web brows
 - **Header**
 
   ![Header](assets/readme-files/headerss.png)
+    The header is a simple design featuring the logo of the website, and the navigation menu.
 
 - **Navigation Menu**
 
   ![Navigation Menu](assets/readme-files/menumobiless.png)
+The navigation menu has a responsive design that adapts to different screen sizes. When users are on a device with a screen size below 768px, the navigation menu appears as a     
+'hamburger' icon. When clicked, the menu items appear, and the hamburger icon transforms, through the use the javascript, into an 'X' icon. When clicked, the users close the naviation menu and result to their current screen.
 
 - **Footer**
 
   ![Header](assets/readme-files/footerss.png)
+  The footer has a simple and clean design, featuring a link to the site's email address. In future iterations, we may explore additional elements to enhance the footer, such as social media integration, additional contact information, or dynamic content updates.
 
 ### Landing Page
 
