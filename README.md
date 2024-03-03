@@ -2,11 +2,14 @@
 
 ![Digi Dice website shown on a variety of screen sizes](assets/readme-files/responsivescreenshot.png)
 
-Visit the deployed site: [Digi Dice]()
+Visit the deployed site: [Digi Dice](https://begoodorbelucky.github.io/DigiDice/)
 
 ### Welcome to Digi Dice
 
 ### About Us
+Welcome to Digi Dice. Our website offers a user-friendly and convenient platform for generating random dice rolls digitally. Whether you're engaged in online tabletop gaming, decision-making activities, or simply need a reliable random number generator, our website is designed to meet your needs. 
+
+Featuring an intuitive user interface and compatibility across various web browsers and devices, Digi Dice offers users a simple and reliable platform for generating random dice rolls online. 
 
 
 ## Contents
