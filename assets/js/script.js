@@ -1,16 +1,23 @@
+/*jshint esversion: 6 */
+
+let angleArray = [
+    [0, 0, 0],
+    [-300, -342, -38],
+    [-410, -320, -2],
+    [130, -217, -80],
+    [-204, -317, 5],
+    [-47, -219, -81],
+    [-130, -370, -53]
+  ];
+
 // nav menu hamburger function 
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
+let hamburger = document.querySelector(".hamburger");
+let navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 });
-
-document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", (event) => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}));
 
 // bring users to thankyou.html when form submit button is pressed 
 document.addEventListener("DOMContentLoaded", function() {
@@ -32,7 +39,7 @@ angleArray = [[0,0,0],[-300,-342,-38],[-410,-320,-2],[130,-217,-80],[-204,-317,5
 
 cube.addEventListener('click',function(){
 
-    const randomAngle = Math.floor(Math.random() * 6) +1;
+    let randomAngle = Math.floor(Math.random() * 6) +1;
     //console.log(randomAngle);
     cube.style.transform = 'rotateX('+angleArray[randomAngle][0]+'deg) rotateY('+angleArray[randomAngle][1]+'deg) rotateZ('+angleArray[randomAngle][2]+'deg)';
     cube.style.transition = '1s linear';
