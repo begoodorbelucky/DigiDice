@@ -5,7 +5,7 @@ const navMenu = document.querySelector(".nav-menu");
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-})
+});
 
 document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", (event) => {
     hamburger.classList.remove("active");
@@ -35,6 +35,6 @@ cube.addEventListener('click',function(){
     const randomAngle = Math.floor(Math.random() * 6) +1;
     //console.log(randomAngle);
     cube.style.transform = 'rotateX('+angleArray[randomAngle][0]+'deg) rotateY('+angleArray[randomAngle][1]+'deg) rotateZ('+angleArray[randomAngle][2]+'deg)';
-    cube.style.transition = '1s linear'
+    cube.style.transition = '1s linear';
 });
 
