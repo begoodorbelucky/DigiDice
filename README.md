@@ -227,5 +227,4 @@ Featuring an intuitive user interface and compatibility across various web brows
 ### Media
 
 ![Canva](assets/readme-files/logoreadme.png)
-- The logo was created by the developer on Canva. 
 - the logo was created using [Canva](https://www.canva.com/).
