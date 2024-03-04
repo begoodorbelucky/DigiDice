@@ -27,6 +27,7 @@ Featuring an intuitive user interface and compatibility across various web brows
     - [Landing Page](#landing-page)
     - [Dice Page](#dice-page)
     - [Contact Page](#contact-page)
+    - [Thank You Page](#thank-you-page)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Websites and Programs Used](#websites-and-programs-used)
@@ -46,6 +47,7 @@ Featuring an intuitive user interface and compatibility across various web brows
 ## User Experience (UX)
 
 ### Project Goals
+
 - Successfully launch the "Digi Dice" website featuring a homepage, a 'dice' page with a functional rolling dice, and a contact page.
 - Design an intuitive and visually appealing website interface that enhances user experience and encourages easy navigation.
 - Ensure the website is fully responsive on all screen sizes, with a focus on mobile first design, providing a seamless and enjoyable experience on all devices.
@@ -55,11 +57,13 @@ Featuring an intuitive user interface and compatibility across various web brows
 ### Color Scheme
 
 ![Color scheme](assets/readme-files/projectcolorscheme.png)
+
 The main colours used in the project are black (#000000) for the font, and Crimson (#D91F26) for the background colour. There are also elements of Blood Red (#690303), Tea Rose (#FACBCB) and Cosmic Latte (#FDF8E6) used throughout the project. This combination of warm reds, cool pinks, and stark black give the project attention grabbing contrast whilst remaing legible and visually appealing. 
 
 ### Typography
 
 ![Typography](assets/readme-files/fontsample.png)
+
 The main font used for the project is'Open Sans', with 'Courier New', Courier, and 'Monospace' used as a fallback should the 'Cinzel Decorative' not import correctly.
 
 ## Features
@@ -69,24 +73,46 @@ The main font used for the project is'Open Sans', with 'Courier New', Courier, a
 - **Header**
 
   ![Header](assets/readme-files/headerss.png)
-    The header is a simple design featuring the logo of the website, and the navigation menu.
+
+   - The header is a simple design featuring the logo of the website, and the navigation menu.
 
 - **Navigation Menu**
-
+  ![Navigation Menu](assets/readme-files/mobiless.png)
   ![Navigation Menu](assets/readme-files/menumobiless.png)
-The navigation menu has a responsive design that adapts to different screen sizes. When users are on a device with a screen size below 768px, the navigation menu appears as a     
-'hamburger' icon. When clicked, the menu items appear, and the hamburger icon transforms, through the use the javascript, into an 'X' icon. When clicked, the users close the naviation menu and result to their current screen.
+
+  - The navigation menu has a responsive design that adapts to different screen sizes. When users are on a device with a screen size below 768px, the navigation menu appears as a     
+  'hamburger' icon. When clicked, the menu items appear, and the hamburger icon transforms, through the use the javascript, into an 'X' icon. When clicked, the users close the naviation menu and result to their current screen.
+
+  Inspiration for the dynamic navigation menu was taken from the [Lullabellz](https://www.lullabellz.com/collections/wigs#) website, which I discovered during research for a different project idea. 
 
 - **Footer**
 
   ![Header](assets/readme-files/footerss.png)
-  The footer has a simple and clean design, featuring a link to the site's email address. In future iterations, we may explore additional elements to enhance the footer, such as social media integration, additional contact information, or dynamic content updates.
+  - The footer has a simple and clean design, featuring a link to the site's email address. In future iterations, we may explore additional elements to enhance the footer, such as social media integration, additional contact information, or dynamic content updates.
 
 ### Landing Page
 
+| Page     | Desktop version                                                           | Mobile version                                                          |
+| -------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Index    | ![Desktop index page image](assets/readme-files/desktopindexss.png)       | ![Mobile index page image](assets/readme-files/mobileindexss.png)       |
+
 ### Dice Page
 
+| Page     | Desktop version                                                           | Mobile version                                                          |
+| -------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Dice     | ![Desktop dice page image](assets/readme-files/desktopdicess.png)         | ![Mobile dice page image](assets/readme-files/mobiledicess.png) |
+
 ### Contact Page
+
+| Page     | Desktop version                                                           | Mobile version                                                          |
+| -------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Contact  | ![Desktop contact page image](assets/readme-files/desktopcontactss.png)   | ![Mobile contact page image](assets/readme-files/mobilecontactss.png)   |
+
+### Thank You Page
+
+| Page     | Desktop version                                                           | Mobile version                                                          |
+| -------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Thankyou  | ![Desktop thankyou page image](assets/readme-files/desktopthanksss.png)   | ![Mobile thankyou page image](assets/readme-files/mobilethanksss.png)   |
 
 ## Technologies Used
 
@@ -125,24 +151,39 @@ The navigation menu has a responsive design that adapts to different screen size
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
   - W3C CSS Validator was used to validate the CSS code.
 
+- [Canva](https://www.canva.com/)
+  - Was used to create the logo of the site.
+
+- [W3 Schools](https://www.w3schools.com/)
+  - Was used regularly as reference throughout the project. 
+
 ## Testing
 
 ### Code Validation
 
+- [Beautify Tools](https://beautifytools.com/javascript-validator.php) was used to ensure quality and compliance of the Javascript code in this project.
+
 - [W3C Markup Validator](https://validator.w3.org/) was used to ensure quality and compliance of the HTML code in this project.
 
-![W3C Markup Validator](assets/readme-files/markup.jpg)
+![W3C Markup Validator](assets/readme-files/htmlvalid.png)
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to ensure the quality and compliance of the CSS code in this project.
 
+![W3C CSS Markup Validator](assets/readme-files/cssvalid.png)
+
 ### Accessibility
 
-![Lighthouse](assets/readme-files/lighthouse.jpg)
+![Lighthouse](assets/readme-files/lighthouseindex.html.png)
+![Lighthouse](assets/readme-files/lighthousedice.html.png)
+![Lighthouse](assets/readme-files/lighthousecontact.html.png)
 
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
   was used to ensure the accessibility of the project, to guarantee an inclusive and user-friendly experience for all visitors.
 
 ### Automated Testing
+
+- [Console.log](https://www.w3schools.com/jsref/met_console_log.asp)
+  -Used console.log() statements strategically to observe the behavior of my JavaScript code.
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
   -Chrome DevTools was used to continuously monitor the project, ensuring the website's responsiveness and visual appeal on all device size.
@@ -168,9 +209,10 @@ The navigation menu has a responsive design that adapts to different screen size
 
 | Page     | Desktop version                                                           | Mobile version                                                          |
 | -------- | ------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| Index    | ![Desktop index page image](assets/readme-files/indexdesktopss.png)       | ![Mobile index page image](assets/readme-files/indexmobiless.png)       |
-| Dice     | ![Desktop dice page image](assets/readme-files/dicedesktopss.png)         | ![Mobile dice page image](assets/readme-files/dicemobiless.png) |
-| Contact  | ![Desktop contact page image](assets/readme-files/contactdesktopss.png)   | ![Mobile contact page image](assets/readme-files/contactmobiless.png)   |
+| Index    | ![Desktop index page image](assets/readme-files/desktopindexss.png)       | ![Mobile index page image](assets/readme-files/mobileindexss.png)       |
+| Dice     | ![Desktop dice page image](assets/readme-files/desktopdicess.png)         | ![Mobile dice page image](assets/readme-files/mobiledicess.png) |
+| Contact  | ![Desktop contact page image](assets/readme-files/desktopcontactss.png)   | ![Mobile contact page image](assets/readme-files/mobilecontactss.png)   |
+| Thankyou  | ![Desktop thankyou page image](assets/readme-files/desktopthanksss.png)   | ![Mobile thankyou page image](assets/readme-files/mobilethanksss.png)   |
 
 # Deployment
 
@@ -180,4 +222,10 @@ The navigation menu has a responsive design that adapts to different screen size
 
 ### Content
 
+- This website's content was written by the developer
+
 ### Media
+
+![Canva](assets/readme-files/logoreadme.png)
+
+- the logo was created using [Canva](https://www.canva.com/).
