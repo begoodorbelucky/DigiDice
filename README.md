@@ -58,13 +58,13 @@ Featuring an intuitive user interface and compatibility across various web brows
 
 ![Color scheme](assets/readme-files/projectcolorscheme.png)
 
-The main colours used in the project are black (#000000) for the font, and Crimson (#D91F26) for the background colour. There are also elements of Blood Red (#690303), Tea Rose (#FACBCB) and Cosmic Latte (#FDF8E6) used throughout the project. This combination of warm reds, cool pinks, and stark black give the project attention grabbing contrast whilst remaing legible and visually appealing. 
+- The main colours used in the project are black (#000000) for the font, and Crimson (#D91F26) for the background colour. There are also elements of Blood Red (#690303), Tea Rose (#FACBCB) and Cosmic Latte (#FDF8E6) used throughout the project. This combination of warm reds, cool pinks, and stark black give the project attention grabbing contrast whilst remaing legible and visually appealing. 
 
 ### Typography
 
 ![Typography](assets/readme-files/fontsample.png)
 
-The main font used for the project is'Open Sans', with 'Courier New', Courier, and 'Monospace' used as a fallback should the 'Cinzel Decorative' not import correctly.
+- The main font used for the project is'Open Sans', with 'Courier New', Courier, and 'Monospace' used as a fallback should the 'Cinzel Decorative' not import correctly.
 
 ## Features
 
@@ -222,10 +222,10 @@ The main font used for the project is'Open Sans', with 'Courier New', Courier, a
 
 ### Content
 
-- This website's content was written by the developer
+- This website's content was written by the developer. 
 
 ### Media
 
 ![Canva](assets/readme-files/logoreadme.png)
-
+- The logo was created by the developer on Canva. 
 - the logo was created using [Canva](https://www.canva.com/).
